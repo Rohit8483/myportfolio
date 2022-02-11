@@ -1,0 +1,83 @@
+.cont{
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(10, 17, 17);
+}
+.cont p{
+    color: black;
+
+}
+.fl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    width: min-content;
+    margin: auto;
+    
+
+
+}
+.fl p{
+    margin-left: 5px;
+   
+
+
+}
+.contact {
+    padding: 60px 0;
+    background: #23263a;
+  }
+  .contactSection-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+ 
+  .contactSection p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .contactCircles {
+    width: 50%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    border-radius: 4px;
+    margin: auto;
+    padding: 5px;
+  }
+  .contactCircles li {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background: #0c0d16;
+    margin: 0 10px;
+    transition: all 0.5s linear;
+    cursor: pointer;
+  }
+  .contactCircles li:hover {
+    background: #ff4a57;
+  }
+
+  @media (max-width: 765px) {
+      
+    .contactCircles li {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        background: #0c0d16;
+        margin: 0 10px;
+        transition: all 0.5s linear;
+        cursor: pointer;
+      }
+  }
