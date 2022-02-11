@@ -1,5 +1,4 @@
 import React from "react";
-import "./Skills.css";
 import {
   FaHtml5,
   FaCss3,

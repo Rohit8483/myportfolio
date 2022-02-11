@@ -1,5 +1,4 @@
 import React from "react";
-import "./Project.css";
 
 const Project = () => {
   const [header] = React.useState({

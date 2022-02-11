@@ -1,6 +1,5 @@
 import React from "react";
-import "./Nav.css";
-import { FaAlignJustify } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa";
 const Nav = () => {
   const [state, setState] = React.useState(true);
   return (
@@ -36,7 +35,7 @@ const Nav = () => {
         </div>
       </div>
       <div className="toggle" onClick={() => setState(!state)}>
-        <FaAlignJustify />
+        <FaPlus className="fa" />
       </div>
     </nav>
   );
