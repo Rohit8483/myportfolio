@@ -39,11 +39,11 @@ const Project = () => {
                 <div className="price__btn">
                   <a
                     href={prices.link}
-                    target="_blank"
                     className="btn btn-outline"
                   >
                     link
                   </a>
+                  
                 </div>
               </div>
             </div>

@@ -54,8 +54,8 @@ const Skills = () => {
           </div>
 
           <div className="row bgMain">
-            {state.map((info) => (
-              <div className="col-4 bgMain">
+            {state.map((info,id) => (
+              <div className="col-4 bgMain" key={id}>
                 <div className="services__box">
                   {info.icon}
                   <div className="services__box-header">{info.heading}</div>
