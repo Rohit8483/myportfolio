@@ -10,7 +10,7 @@ const Contact = () => {
           <div className="row justifyConter">
             <div className="col-6">
               <div className="contactSection-logo">
-                {/* <img src="/images/logo.png" alt="" /> */}
+            
               </div>
               <p className="cont">Contact Details</p>
               <div className="fl">
