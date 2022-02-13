@@ -1,5 +1,7 @@
 import React from "react";
-import { FaPlus } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
+
+
 const Nav = () => {
   const [state, setState] = React.useState(true);
   return (
@@ -35,7 +37,7 @@ const Nav = () => {
         </div>
       </div>
       <div className="toggle" onClick={() => setState(!state)}>
-        <FaPlus className="fa" />
+        <FaBars className="fa" />
       </div>
     </nav>
   );
