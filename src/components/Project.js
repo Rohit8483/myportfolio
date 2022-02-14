@@ -15,7 +15,7 @@ const Project = () => {
       id: 2,
       heading: "Smallcase Clone",
       img: "./images/smallcase.png",
-      link: "none",
+      link: "https://smallcaseclone.netlify.app/",
     },
   ]);
   return (
