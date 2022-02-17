@@ -385,7 +385,7 @@ p {
 @media (max-width: 550px) {
   .container {
     width: 100%;
-    padding: 0 50px;
+    padding: 0 20px;
     margin: auto;
     
     /* display: block; */
@@ -408,7 +408,7 @@ p {
     display: block;
     width: auto;
     /* flex-wrap: wrap; */
-    padding: 30px;
+    padding: 20px;
     margin: auto;
   }
   .bgMain{
@@ -475,8 +475,8 @@ p {
   }
   /* pro photo */
   .price__rs img {
-    width: 200px;
-    height: 150px;
+    width: 320px;
+    height: 165px;
   }
 }
 html {

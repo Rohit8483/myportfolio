@@ -19,7 +19,7 @@ const Project = () => {
       id: 2,
       heading: "Smallcase Clone",
       img: "./images/smallcase.png",
-      link: "https://smallcaseclone.netlify.app/",
+      link: "https://smallcase-clone.netlify.app/",
       repolink: "https://github.com/Rohit8483/smallcase",
       p:"smallcase is modern investment portfolio that help users build a low cost, secure, long term & diversified portfolio, we have cloned using Html, CSS, and JavaScript and json-server"
     },
