@@ -1,4 +1,6 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
+
 
 const Project = () => {
   const [header] = React.useState({
@@ -10,12 +12,16 @@ const Project = () => {
       heading: "American Eagle Clone",
       img: "./images/american.png",
       link: "https://rubyroy21.github.io/American-Eagle/",
+      repolink: "https://github.com/Rohit8483/American-Eagle",
+      p:"American Eagle is a leading global specialty retailer offering high-quality, on-trend clothing and accessories at affordable prices. We try to build a American Eagle clone using Html, CSS, and JavaScript"
     },
     {
       id: 2,
       heading: "Smallcase Clone",
       img: "./images/smallcase.png",
       link: "https://smallcaseclone.netlify.app/",
+      repolink: "https://github.com/Rohit8483/smallcase",
+      p:"smallcase is modern investment portfolio that help users build a low cost, secure, long term & diversified portfolio, we have cloned using Html, CSS, and JavaScript and json-server"
     },
   ]);
   return (
@@ -34,14 +40,25 @@ const Project = () => {
                 <div className="price__rs">
                   <img className="imgx" src={prices.img} alt=""></img>
                 </div>
+                <p id="desc">{prices.p}</p>
 
                 <div className="price__btn">
                   <a
                     href={prices.link}
                     className="btn btn-outline"
+                    target='_blank'
                   >
                     link
                   </a>
+                  <a
+                    href={prices.repolink}
+                    className="btn btn-outline"
+                    id="descShow"
+                    target='_blank'
+                  >
+                    <FaGithub style={{fontSize:"25px", paddingTop:"5px"}}/>
+                  </a>
+                  
                   
                 </div>
               </div>

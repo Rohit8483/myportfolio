@@ -6,6 +6,7 @@ import {
   FaReact,
   FaNodeJs,
   FaLeaf,
+  
 } from "react-icons/fa";
 const Skills = () => {
   const [header] = React.useState({
