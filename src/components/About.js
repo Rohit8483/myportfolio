@@ -33,6 +33,7 @@ const About = () => {
               <div className="header__buttons myBtn">
                 <a
                   href="https://drive.google.com/drive/folders/1QMnquZMldL5_oikcYZdxms82crkfMwM8?usp=sharing"
+                  target="_blank"
                  
                   className="btn btn-outline"
                 >

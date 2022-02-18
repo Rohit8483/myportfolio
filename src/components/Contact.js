@@ -22,6 +22,7 @@ const Contact = () => {
               <li>
                   <a
                     href="https://github.com/Rohit8483"
+                    target="_blank"
                  
                   >
                     <FaGithub className="headerIcon" />
@@ -30,13 +31,14 @@ const Contact = () => {
                 <li>
                   <a
                     href="https://www.linkedin.com/in/rohit-hirulkar-775a79167/"
+                    target="_blank"
                  
                   >
                     <FaLinkedinIn className="headerIcon" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/home.php" >
+                  <a href="https://www.facebook.com/home.php" target="_blank">
                     <FaFacebookF className="headerIcon" />
                   </a>
                 </li>
@@ -44,6 +46,7 @@ const Contact = () => {
                 <li>
                   <a
                     href="https://www.instagram.com/rohithirulkar/"
+                    target="_blank"
                  
                   >
                     <FaInstagram className="headerIcon" />

@@ -22,13 +22,14 @@ const Banner = () => {
                 <p>{state.text}</p>
                 <ul className="contactCircles">
                   <li>
-                    <a href="https://github.com/Rohit8483">
+                    <a href="https://github.com/Rohit8483" target="_blank">
                       <FaGithub className="headerIcon" />
                     </a>
                   </li>
                   <li>
                     <a
                       href="https://www.linkedin.com/in/rohit-hirulkar-775a79167/"
+                      target="_blank"
                    
                     >
                       <FaLinkedinIn className="headerIcon" />
@@ -37,6 +38,7 @@ const Banner = () => {
                   <li>
                     <a
                       href="https://twitter.com/Rohit8483"
+                      target="_blank"
                    
                     >
                       <FaTwitter className="headerIcon" />
