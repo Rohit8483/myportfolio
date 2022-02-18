@@ -47,6 +47,7 @@ const Project = () => {
                     href={prices.link}
                     className="btn btn-outline"
                     target='_blank'
+                    style={{color:"white"}}
                   >
                     link
                   </a>
@@ -56,7 +57,7 @@ const Project = () => {
                     id="descShow"
                     target='_blank'
                   >
-                    <FaGithub style={{fontSize:"25px", paddingTop:"5px"}}/>
+                    <FaGithub style={{fontSize:"25px", paddingTop:"5px",color:"white"}}/>
                   </a>
                   
                   
