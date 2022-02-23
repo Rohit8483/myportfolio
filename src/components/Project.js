@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub,FaShareSquare } from "react-icons/fa";
 
 
 const Project = () => {
@@ -49,7 +49,7 @@ const Project = () => {
                     target='_blank'
                     style={{color:"white"}}
                   >
-                    link
+                   <FaShareSquare style={{fontSize:"22px", paddingTop:"5px",color:"white"}}/>
                   </a>
                   <a
                     href={prices.repolink}

@@ -4,6 +4,7 @@ import { FaBars } from "react-icons/fa";
 
 const Nav = () => {
   const [state, setState] = React.useState(true);
+  
   return (
     <nav className="navbar">
       <div className="container">
