@@ -23,6 +23,14 @@ const Project = () => {
       repolink: "https://github.com/Rohit8483/smallcase",
       p:"smallcase is modern investment portfolio that help users build a low cost, secure, long term & diversified portfolio, we have cloned using Html, CSS, and JavaScript and json-server"
     },
+    {
+      id: 3,
+      heading: "Airbnb Clone",
+      img: "./images/front.png",
+      link: "https://airbnb-clone-snowy-three.vercel.app/",
+      repolink: "https://github.com/Rohit8483/Airbnb-Clone",
+      p:"Airbnb is an American company that operates an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities. We build this website using ReactJS. "
+    },
   ]);
   return (
     <div className="prices" id="Projects">
