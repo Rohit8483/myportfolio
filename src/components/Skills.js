@@ -1,13 +1,14 @@
 import React from "react";
+import { FaHtml5, FaCss3, FaReact, FaNodeJs } from "react-icons/fa";
 import {
-  FaHtml5,
-  FaCss3,
-  FaJava,
-  FaReact,
-  FaNodeJs,
-  FaLeaf,
-  
-} from "react-icons/fa";
+  SiJest,
+  SiJavascript,
+  SiGitlab,
+  SiRedux,
+  SiMongodb,
+  SiKibana
+} from "react-icons/si";
+
 const Skills = () => {
   const [header] = React.useState({
     subHeading: "SKILLS",
@@ -25,7 +26,7 @@ const Skills = () => {
     },
     {
       id: 3,
-      icon: <FaJava className="commonIcons" />,
+      icon: <SiJavascript className="commonIcons" />,
       heading: "JavaScript",
     },
     {
@@ -34,14 +35,34 @@ const Skills = () => {
       heading: "React",
     },
     {
+      id: 9,
+      icon: <SiRedux className="commonIcons" />,
+      heading: "Redux",
+    },
+    {
       id: 5,
       icon: <FaNodeJs className="commonIcons" />,
       heading: "NodeJS",
     },
     {
       id: 6,
-      icon: <FaLeaf className="commonIcons" />,
+      icon: <SiMongodb className="commonIcons" />,
       heading: "MongoDB",
+    },
+    {
+      id: 7,
+      icon: <SiGitlab className="commonIcons" />,
+      heading: "GitLab",
+    },
+    {
+      id: 8,
+      icon: <SiJest className="commonIcons" />,
+      heading: "JEST",
+    },
+    {
+      id: 10,
+      icon: <SiKibana className="commonIcons" />,
+      heading: "Kibana",
     },
   ]);
   return (
@@ -54,7 +75,7 @@ const Skills = () => {
           </div>
 
           <div className="row bgMain">
-            {state.map((info,id) => (
+            {state.map((info, id) => (
               <div className="col-4 bgMain" key={id}>
                 <div className="services__box">
                   {info.icon}

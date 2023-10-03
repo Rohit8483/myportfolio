@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  FaLinkedinIn,
-  FaTwitter,
-  FaGithub,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaTwitter, FaGithub } from "react-icons/fa";
 
 const Banner = () => {
   const [state] = React.useState({
@@ -22,7 +18,11 @@ const Banner = () => {
                 <p>{state.text}</p>
                 <ul className="contactCircles">
                   <li>
-                    <a href="https://github.com/Rohit8483" target="_blank">
+                    <a
+                      href="https://github.com/Rohit8483"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <FaGithub className="headerIcon" />
                     </a>
                   </li>
@@ -30,7 +30,7 @@ const Banner = () => {
                     <a
                       href="https://www.linkedin.com/in/rohit-hirulkar-775a79167/"
                       target="_blank"
-                   
+                      rel="noopener noreferrer"
                     >
                       <FaLinkedinIn className="headerIcon" />
                     </a>
@@ -39,7 +39,7 @@ const Banner = () => {
                     <a
                       href="https://twitter.com/Rohit8483"
                       target="_blank"
-                   
+                      rel="noopener noreferrer"
                     >
                       <FaTwitter className="headerIcon" />
                     </a>

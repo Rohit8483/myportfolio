@@ -385,8 +385,6 @@ p {
     width: 100%;
     padding: 0 20px;
     margin: auto;
-
-    /* display: block; */
   }
   .col-6 {
     width: 100%;
@@ -403,14 +401,12 @@ p {
   .row {
     display: block;
     width: auto;
-    /* flex-wrap: wrap; */
     padding: 20px;
     margin: auto;
   }
   .bgMain {
     width: 220px;
   }
-
   .navbar__right {
     flex-direction: column;
     width: 100%;
@@ -473,8 +469,7 @@ p {
     width: 280px;
     height: 160px;
   }
- 
-  #cont{
+  #cont {
     font-size: 15px !important;
   }
 }
@@ -484,7 +479,6 @@ html {
 .headerIcon {
   color: white;
   font-size: 18px;
-  /* padding-top: 2px; */
   margin-top: 3px;
 }
 /* Contact details */
@@ -492,15 +486,12 @@ html {
   text-align: center;
   font-size: 30px;
   border-bottom: 2.5px solid wheat;
-  /* background-color: rgb(10, 17, 17); */
 }
-
 
 .cont p {
   color: black;
-
 }
-.col-6>p{
+.col-6 > p {
   width: 55%;
   margin: auto;
   margin-bottom: 18px;
@@ -510,13 +501,9 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   justify-content: center;
   align-items: center;
 }
-/* .fl p {
-  margin-left: 5px;
-} */
 .contact {
   padding: 60px 0;
   background: #23263a;
@@ -527,6 +514,6 @@ html {
   letter-spacing: normal;
   font-size: 12px;
 }
-#cont{
+#cont {
   font-size: 25px;
 }

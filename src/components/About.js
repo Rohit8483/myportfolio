@@ -34,6 +34,7 @@ const About = () => {
                 <a
                   href="https://drive.google.com/file/d/1P5iu5Sarlpq-RPX3CP9a908f4vCev6nm/view?usp=sharing"
                   target="_blank"
+                  rel="noopener noreferrer"
                  
                   className="btn btn-outline"
                 >
