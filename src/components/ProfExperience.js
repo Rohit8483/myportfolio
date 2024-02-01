@@ -5,7 +5,7 @@ const ProfExp = () => {
     subHeader: "Professional Experience",
   });
   return (
-    <div className="about" id="About">
+    <div className="about" id="Exp">
       <div className="container">
         <div className="common">
           <h1 className="mainHeader">{header.subHeader}</h1>
@@ -34,13 +34,23 @@ const ProfExp = () => {
                   <h4 className="headingExp">Areas of responsibility</h4>
                   <br/>
                   <div>
-                    Improvised Component Design using client library and Styled
-                    Component Library of old repositories. Covered Unit Testing
+                    1. Improvised Component Design using client library and Styled
+                    Component Library of old repositories. 
+                    <br/>
+                    2. Covered Unit Testing
                     up by 80% and increased the performance of the application
-                    by 50%. Fixed over 80% of production bugs in pre production
-                    environment. Implemented accessibility functionality using
-                    the NVDA tool. Worked on user stories Optimizing performance
-                    in a React app. Debugging & Performances testing using
+                    by 50%. 
+                    <br/>
+                    3. Fixed over 80% of production bugs in pre production
+                    environment. 
+                    <br/>
+                    4. Implemented accessibility functionality using
+                    the NVDA tool. 
+                    <br/>
+                    5. Worked on user stories, Optimizing performance
+                    in a React app. 
+                    <br/>
+                    6. Debugging & Performances testing using
                     Lighthouse, Profiler, SRE tool, New Relic
                   </div>
                 </div>

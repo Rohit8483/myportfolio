@@ -17,9 +17,11 @@ const Nav = () => {
               <li>
                 <a href="#Banner">Home</a>
               </li>
-
               <li>
                 <a href="#About">About</a>
+              </li>
+              <li>
+                <a href="#Exp">Experience</a>
               </li>
               <li>
                 <a href="#Skills">Skills</a>
