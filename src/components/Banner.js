@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaTwitter, FaGithub } from "react-icons/fa";
 const Banner = () => {
   const [state] = React.useState({
     title: "Rohit Hirulkar",
-    text: "FULL-STACK WEB DEVELOPER",
+    text: "FRONTEND WEB DEVELOPER",
     image: "./images/myImg.png",
   });
   return (

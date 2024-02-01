@@ -29,7 +29,7 @@ const Contact = () => {
 
                 <p>
                   <FaLocationArrow> </FaLocationArrow>
-                  <span> </span>Pune, Maharashtra
+                  <span> </span>Mumbai, Maharashtra
                 </p>
 
                 <p>

@@ -23,19 +23,22 @@ const About = () => {
             <div className="about__info">
               <h1>Hi There</h1>
               <div className="about__info-p1">
-                I'm Rohit Hirulkar and I'm a web developer with a focus on the
-                MERN stack, but still exploring other technologies and
-                frameworks that catch my interest! if you're looking for a
-                developer to add to your team, I'd love to hear from you! Plaese
-                feel free to Contact me.
+                Results-driven React.js Developer with 2 years of experience,
+                Skilled in utilizing React.js, Redux, and other modern front-end
+                technologies to create responsive and scalable solutions.
+                creating visually appealing and user-friendly interfaces. Strong
+                problem-solving and communication skills, coupled with a passion
+                for staying up-to-date with the latest industry trends and best
+                practices. Excited to contribute expertise in React.js
+                development to help companies achieve their goals and enhance
+                the overall user experience.
               </div>
 
               <div className="header__buttons myBtn">
                 <a
-                  href="https://drive.google.com/file/d/1P5iu5Sarlpq-RPX3CP9a908f4vCev6nm/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ZjmzLTT3pMIJFrA3IAAXGAPacrWXBlFd/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
-                 
                   className="btn btn-outline"
                 >
                   Resume
