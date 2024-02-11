@@ -327,6 +327,10 @@ p {
   display: flex;
   align-items: center;
 }
+.rowContainerExp {
+  display: grid;
+  text-align: left;
+}
 .headingExp {
   margin-right: 10px;
   align-self: flex-start;

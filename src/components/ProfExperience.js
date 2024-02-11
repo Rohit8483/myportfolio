@@ -17,41 +17,42 @@ const ProfExp = () => {
             <div className="about__info">
               <div className="about__info-p1">
                 <h3>GlobalLogic, Software Engineer</h3>
-                <div className="rowContainer">
+                <div className="rowContainerExp">
                   <h4 className="headingExp">Project:</h4>
-                  <>Verizon(Telecommunication domain) Mar 2022 - Present</>
+                  <>Verizon (Telecommunication domain) Mar 2022 - Present</>
                 </div>
-                <div className="rowContainer">
+                <div className="rowContainerExp">
                   <h4 className="headingExp">Tech Stack:</h4>
-                  <br/>
-
                   <div>
                     React, Redux, Javascript, React Testing Library, Styled
-                    Components, Webpack, Jenkins, GitLab, ESLint, Lighthouse
+                    Components, Webpack, Jenkins, GitLab, ESLint, Lighthouse,
+                    SRE
                   </div>
                 </div>
-                <div className="rowContainer">
+                <div className="rowContainerExp">
                   <h4 className="headingExp">Areas of responsibility</h4>
-                  <br/>
                   <div>
-                    1. Improvised Component Design using client library and Styled
-                    Component Library of old repositories. 
-                    <br/>
-                    2. Covered Unit Testing
-                    up by 80% and increased the performance of the application
-                    by 50%. 
-                    <br/>
+                    1. Improvised Component Design using client library and
+                    Styled Component Library of old repositories.
+                    <br />
+                    2. Covered Unit Testing up by 80% and increased the
+                    performance of the application by 50%.
+                    <br />
                     3. Fixed over 80% of production bugs in pre production
-                    environment. 
-                    <br/>
-                    4. Implemented accessibility functionality using
-                    the NVDA tool. 
-                    <br/>
-                    5. Worked on user stories, Optimizing performance
-                    in a React app. 
-                    <br/>
-                    6. Debugging & Performances testing using
-                    Lighthouse, Profiler, SRE tool, New Relic
+                    environment.
+                    <br />
+                    4. Implemented accessibility functionality using the NVDA
+                    tool.
+                    <br />
+                    5. Worked on user stories, Optimizing performance in a React
+                    app.
+                    <br />
+                    6. Debugging & Performances testing using Lighthouse,
+                    Profiler, SRE tool, New Relic.
+                    <br />
+                    7. Prefetched API's which is sending static content and
+                    stored data in redux state, so almost 2 sec saved for page
+                    load.
                   </div>
                 </div>
               </div>
