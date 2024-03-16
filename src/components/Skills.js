@@ -6,7 +6,7 @@ import {
   SiGitlab,
   SiRedux,
   SiMongodb,
-  SiKibana
+  SiKibana,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -16,28 +16,28 @@ const Skills = () => {
   const [state] = React.useState([
     {
       id: 1,
-      icon: <FaHtml5 className="commonIcons" />,
-      heading: "HTML",
-    },
-    {
-      id: 2,
-      icon: <FaCss3 className="commonIcons" />,
-      heading: "CSS",
-    },
-    {
-      id: 3,
-      icon: <SiJavascript className="commonIcons" />,
-      heading: "JavaScript",
-    },
-    {
-      id: 4,
       icon: <FaReact className="commonIcons" />,
       heading: "React",
     },
     {
-      id: 9,
+      id: 2,
+      icon: <SiJavascript className="commonIcons" />,
+      heading: "JavaScript",
+    },
+    {
+      id: 3,
       icon: <SiRedux className="commonIcons" />,
       heading: "Redux",
+    },
+    {
+      id: 4,
+      icon: <FaHtml5 className="commonIcons" />,
+      heading: "HTML5",
+    },
+    {
+      id: 9,
+      icon: <FaCss3 className="commonIcons" />,
+      heading: "CSS3",
     },
     {
       id: 5,
@@ -47,12 +47,12 @@ const Skills = () => {
     {
       id: 6,
       icon: <SiMongodb className="commonIcons" />,
-      heading: "MongoDB",
+      heading: "Optimization",
     },
     {
       id: 7,
       icon: <SiGitlab className="commonIcons" />,
-      heading: "GitLab",
+      heading: "Git",
     },
     {
       id: 8,
