@@ -36,10 +36,11 @@ const About = () => {
 
               <div className="header__buttons myBtn">
                 <a
-                  href="https://drive.google.com/file/d/1ZjmzLTT3pMIJFrA3IAAXGAPacrWXBlFd/view?usp=sharing"
+                  href="./rohitHirulkar_reactJs_dev.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-outline"
+                  download
                 >
                   Resume
                 </a>
